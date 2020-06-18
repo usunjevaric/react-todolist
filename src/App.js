@@ -68,7 +68,7 @@ function App() {
       <div className='app'>
         <div className='wrapper'>
           <Input />
-          <Filters />
+          {state.tasks.length > 0 && <Filters />}
           <TaskList />
         </div>
       </div>

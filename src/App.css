@@ -102,7 +102,9 @@
 .green-check svg {
   fill: #016612;
 }
-
+.no-tasks {
+  text-align: center;
+}
 /*filters*/
 .filters {
   display: flex;
